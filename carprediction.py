@@ -269,7 +269,7 @@ rf_random = RandomizedSearchCV(estimator = rf, param_distributions = random_grid
 # In[40]:
 
 
-kl_random.fit(X_train,y_train)
+rf_random.fit(X_train,y_train)
 
 
 # In[41]:
